@@ -1,0 +1,2 @@
+GET /period/:periodId/:teacherProfileId/:classId      @controllers.StaffRoomController.getPeriodDetails(periodId :
+String, teacherProfileId: String, classId: String)
